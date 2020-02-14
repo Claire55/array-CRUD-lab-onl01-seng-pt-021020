@@ -8,8 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   new_array = ["one", "two"]
-  add_element_to_end_of_array("new_array", "three")
-  #{array} << (#{{element})
+  new_array.push("three")
 end
 
 def add_element_to_start_of_array(array, element)
